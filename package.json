@@ -1,10 +1,11 @@
 {
   "name": "socketiochatrealtimeproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "A real-time chat application made with express and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,14 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "socket.io": "^4.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eraysahin06/ChatApp-SocketIO-ExpressJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eraysahin06/ChatApp-SocketIO-ExpressJS/issues"
+  },
+  "homepage": "https://github.com/eraysahin06/ChatApp-SocketIO-ExpressJS#readme"
 }
